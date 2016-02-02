@@ -6,6 +6,7 @@ html {
    margin-left: 80px;
    margin-right: 80px;
    margin-top: 20px;
+   font-size: 1.1em;
  }
 
 nav {
@@ -15,7 +16,11 @@ nav {
   /* display: inline; */
 }
 
+header {
+  width: 100%;
+}
 section {
+  color: #999999;
   background-color: #EEF0F3;
 }
 
@@ -34,26 +39,49 @@ section {
   padding: 2px;
   width: 25px;
   font-weight: bold;
-  font-size: 1.2em;
 }
 
+#triangle {
+    /* padding-right: 2px; */
+    width: 14px;
+    height: 14px;
+}
+
+.black_text {
+  color: #000000;
+}
+
+.gray_text {
+  color: 999999;
+  font-size: 0.80em;
+}
+
+.align_triangle_img {
+  vertical-align: top;
+}
 /* Includes navigation links */
-#nav_links {
+/* #nav_links {
 
-}
+} */
 
 /* Includes login only */
 #nav_login {
-  lfoat: right;
+  /* float: right; */
 }
 
 .nav_divider {
   color: #ffffff;
 }
+
+/* ol {
+  margin: 0px;
+ background-color: #EEF0F3;
+} */
+
 /* .nav_login {
   float: right;
 } */
 
-/* .nav {
-  display: inline;
-} */
+nav {
+/*  display: inline-block; */
+}
