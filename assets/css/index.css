@@ -24,14 +24,17 @@ section {
   background-color: #EEF0F3;
 }
 
+div {
+  display: inline-block;
+  vertical-align: middle;
+}
 /* Includes title "Iron News" */
-#nav_title {
+#title {
   font-weight: bold;
-  font-size: 1.2em;
 }
 
 /* Capital letter "I" */
-#nav_letter {
+#letter {
   color: #ffffff;
   border: 1px solid #ffffff;
   text-align: center;
@@ -42,7 +45,7 @@ section {
 }
 
 #triangle {
-    /* padding-right: 2px; */
+    padding-left: 2px;
     width: 14px;
     height: 14px;
 }
@@ -59,29 +62,12 @@ section {
 .align_triangle_img {
   vertical-align: top;
 }
-/* Includes navigation links */
-/* #nav_links {
-
-} */
 
 /* Includes login only */
-#nav_login {
-  /* float: right; */
-}
-
-.nav_divider {
-  color: #ffffff;
-}
-
-/* ol {
-  margin: 0px;
- background-color: #EEF0F3;
-} */
-
-/* .nav_login {
+#login {
   float: right;
-} */
+}
 
-nav {
-/*  display: inline-block; */
+.divider {
+  color: #ffffff;
 }
