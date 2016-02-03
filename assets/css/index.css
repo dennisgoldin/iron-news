@@ -10,10 +10,8 @@ html {
  }
 
 nav {
-  /*  height: 50px; */
   background-color: #8D90A1;
-  padding: 10px;
-  /* display: inline; */
+  padding: 5px;
 }
 
 header {
@@ -22,25 +20,34 @@ header {
 section {
   color: #999999;
   background-color: #EEF0F3;
+  padding-top: 10px;
 }
 
 div {
   display: inline-block;
   vertical-align: middle;
 }
-/* Includes title "Iron News" */
+
+footer {
+  text-align: center;
+  background-color: rgb(238,240,243);
+}
+
+hr {
+  background-color: rgb(238,240,243);
+}
+
 #title {
   font-weight: bold;
 }
 
-/* Capital letter "I" */
 #letter {
   color: #ffffff;
   border: 1px solid #ffffff;
   text-align: center;
   vertical-align: middle;
-  padding: 2px;
-  width: 25px;
+  padding: 1px;
+  width: 24px;
   font-weight: bold;
 }
 
@@ -56,18 +63,24 @@ div {
 
 .gray_text {
   color: 999999;
-  font-size: 0.80em;
+  font-size: 0.75em;
 }
 
-.align_triangle_img {
+.align_td {
   vertical-align: top;
+  display: inline-block;
+  float: right;
+  padding-left: 0px;
 }
 
-/* Includes login only */
 #login {
   float: right;
 }
 
 .divider {
   color: #ffffff;
+}
+
+sub {
+  vertical-align: top;
 }
