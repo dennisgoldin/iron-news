@@ -31,10 +31,11 @@ div {
 footer {
   text-align: center;
   background-color: rgb(238,240,243);
+  color: #999999;
 }
 
-hr {
-  background-color: rgb(238,240,243);
+sub {
+  vertical-align: top;
 }
 
 #title {
@@ -57,6 +58,10 @@ hr {
     height: 14px;
 }
 
+#login {
+  float: right;
+}
+
 .black_text {
   color: #000000;
 }
@@ -66,6 +71,7 @@ hr {
   font-size: 0.75em;
 }
 
+
 .align_td {
   vertical-align: top;
   display: inline-block;
@@ -73,14 +79,11 @@ hr {
   padding-left: 0px;
 }
 
-#login {
-  float: right;
-}
-
 .divider {
   color: #ffffff;
 }
 
-sub {
-  vertical-align: top;
+.footer_text {
+  color: #000000;
+  font-size: 0.85em;
 }
